@@ -1,0 +1,107 @@
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+      
+  }
+  
+  .starwar-logo{
+    width: 35%;
+    
+  }
+  
+  .loading{
+    width: 20%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  } 
+  
+  
+   .movie-title {
+    color: white;
+    font-size: 1.5rem;
+    /* line-height: 1.5; */
+  } 
+  
+   .movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem */
+  } 
+  
+   .each-movie {
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 22rem;
+    min-width: 13rem;
+    border-radius: 6px;
+
+  
+  } 
+  
+   .each-movie:hover{
+    box-shadow: 0 0 10px 4px rgb(28, 136, 179);
+    transition: 0.2s;
+    } 
+    
+     .each-movie:nth-child(1){
+      background-image: url('../Images/bg-image-1.png');
+    }
+    .each-movie:nth-child(2){
+        background-image: url('../Images/bg-image-2.png');
+    }
+    .each-movie:nth-child(3){
+        background-image: url('../Images/bg-image-3.png');
+    } 
+     .each-movie:nth-child(4){
+        background-image: url('../Images/bg-image-4.png');
+    }
+    .each-movie:nth-child(5){
+        background-image: url('../Images/bg-image-5.png');
+    }
+    .each-movie:nth-child(6){
+        background-image: url('../Images/bg-image-6.png');
+    }
+    
+    li {
+      list-style-type: none;
+    } 
+  
+   .movie-date{
+    color: rgb(158, 153, 153);
+    font-size: 0.93rem;
+  }
+  
+  .movie-summary{
+    line-height: 1.5;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+    
+    }
+ 
+   .line{
+      background-color: rgb(143, 34, 34);
+      height: 0.2rem;
+      margin-bottom: 1rem;
+    }
+    .info-link {
+      color: rgb(214, 214, 9);
+      text-decoration: none;
+     font-size: 1rem;
+     cursor: pointer;
+     border: none;
+     /* outline: none; */
+     background-color: transparent;
+    } 
+
+
+    
+      
